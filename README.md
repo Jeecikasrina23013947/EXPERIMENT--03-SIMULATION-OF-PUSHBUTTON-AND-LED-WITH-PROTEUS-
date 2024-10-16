@@ -1,93 +1,142 @@
 # EX3-SIMULATION-OF-PUSHBUTTON-AND-LED INTERFACE WITH ARM CONTROLLER AND PROTEUS 
 
 ## Aim : 
+
 To Interface a Digital output (LED) and Digital input (Pushbutton) to ARM development board , and simulate it in Proteus 
 
-## Components required : 
+## Components required :
+
 STM32 CUBE IDE, Proteus 8 simulator.
 
 ## Theory :
-    -> ARM stands for Advanced Reduced Instruction Set Computer (RISC) Machine, a 32-bit processor architecture used widely in microcontrollers and processors. Major semiconductor companies like Samsung, Atmel, and TI manufacture ARM-based SoCs.
-    -> ARM architecture is licensed to corporations, allowing them to design ARM processor-based SoCs and CPUs for various applications.
-    -> Commonly used in embedded systems, ARM7 strikes a balance between classic ARM and new Cortex sequences, with excellent documentation provided by NXP Semiconductors, making it ideal for beginners in hardware and software design.
-    -> STM32F401xB/C ARM Cortex-M4: This ARM Cortex-M4 32-bit MCU has a floating-point unit (FPU), runs at up to 84 MHz, and offers real-time performance with 105 DMIPS, 256KB Flash memory, 64KB RAM, and various communication interfaces.
-    -> The STM32F401xB/C includes 11 timers (TIMs), 1 analog-to-digital converter (ADC), and 11 communication interfaces, making it a versatile choice for embedded systems.
+
+    ARM stands for Advanced Reduced Instruction Set Computer (RISC) Machine, a 32-bit processor architecture used widely in microcontrollers and processors. Major semiconductor companies like Samsung, Atmel, and TI manufacture ARM-based SoCs.ARM architecture is licensed to corporations, allowing them to design ARM processor-based SoCs and CPUs for various applications.Commonly used in embedded systems, ARM7 strikes a balance between classic ARM and new Cortex sequences, with excellent documentation provided by NXP Semiconductors, making it ideal for beginners in hardware and software design.STM32F401xB/C ARM Cortex-M4: This ARM Cortex-M4 32-bit MCU has a floating-point unit (FPU), runs at up to 84 MHz, and offers real-time performance with 105 DMIPS, 256KB Flash memory, 64KB RAM, and various communication interfaces. The STM32F401xB/C includes 11 timers (TIMs), 1 analog-to-digital converter (ADC), and 11 communication interfaces, making it a versatile choice for embedded systems.
  
  
 
 ## Procedure :
 
- ### STEP1 :
+ ### STEP-1 :
+ 
  click on STM 32 CUBE IDE, the following screen will appear 
+ 
+ 
  ![image](https://user-images.githubusercontent.com/36288975/226189166-ac10578c-c059-40e7-8b80-9f84f64bf088.png)
 
- ### STEP2 :
+ ### STEP-2 :
+ 
  click on FILE, click on new stm 32 project 
+ 
+ 
  ![image](https://user-images.githubusercontent.com/36288975/226189215-2d13ebfb-507f-44fc-b772-02232e97c0e3.png)
+ 
+ 
 ![image](https://user-images.githubusercontent.com/36288975/226189230-bf2d90dd-9695-4aaf-b2a6-6d66454e81fc.png)
 
- ### STEP3 :
+ ### STEP-3 :
+ 
 select the target to be programmed  as shown below and click on next 
+
 
 ![image](https://user-images.githubusercontent.com/36288975/226189280-ed5dcf1d-dd8d-43ae-815d-491085f4863b.png)
 
-### STEP4 :
+### STEP-4 :
+
 select the program name 
+
+
 ![image](https://user-images.githubusercontent.com/36288975/226189316-09832a30-4d1a-4d4f-b8ad-2dc28f137711.png)
 
 
-### STEP5 : 
+### STEP-5 : 
+
 corresponding ioc file will be generated automatically 
+
+
 ![image](https://user-images.githubusercontent.com/36288975/226189378-3abbdee2-0df6-470f-a3cd-79c74e3d3ad8.png)
 
-### STEP6 :
+### STEP-6 :
+
 select the appropriate pins as gipo, in or out, USART or required options and configure 
+
+
 ![image](https://user-images.githubusercontent.com/36288975/226189403-f7179f1a-3eae-4637-826b-ab4ec35ba1e1.png)
+
+
 ![image](https://user-images.githubusercontent.com/36288975/226189425-2b2414ce-49b3-4b61-a260-c658cb2e4152.png)
 
 
-### STEP7 :
-click on cntrl+S , automaticall C program will be generated 
+### STEP-7 :
+
+click on cntrl+S , automaticall C program will be generated
+
+
 ![image](https://user-images.githubusercontent.com/36288975/226189443-8b43451d-0b14-47e4-a20b-cc09c6ad8458.png)
+
+
 ![image](https://user-images.githubusercontent.com/36288975/226189450-85ffa969-2ffb-4788-81e5-72d60fdda0f1.png)
 
-### STEP8 : 
+### STEP-8 : 
+
 edit the program and as per required 
+
+
 ![image](https://user-images.githubusercontent.com/36288975/226189461-a573e62f-a109-4631-a250-a20925758fe0.png)
 
-### STEP9 : 
+### STEP-9 : 
+
 use project and build  
+
+
 ![image](https://user-images.githubusercontent.com/36288975/226189554-3f7101ac-3f41-48fc-abc7-480bd6218dec.png)
 
-### STEP10 : 
-once the project is bulild 
+### STEP-10 : 
+
+once the project is build 
+
+
 ![image](https://user-images.githubusercontent.com/36288975/226189577-c61cc1eb-3990-4968-8aa6-aefffc766b70.png)
 
-### STEP11 : 
+### STEP-11 : 
+
 click on debug option 
+
+
 ![image](https://user-images.githubusercontent.com/36288975/226189625-37daa9a3-62e9-42b5-a5ce-2ac63345905b.png)
 
-### STEP12 : 
+### STEP-12 : 
+
 Creating Proteus project and running the simulation
 We are now at the last part of step by step guide on how to simulate STM32 project in Proteus.
 
-### STEP13 : 
+### STEP-13 : 
+
 Create a new Proteus project and place STM32F40xx i.e. the same MCU for which the project was created in STM32Cube IDE. 
 
-### STEP14 :
+### STEP-14 :
+
 After creation of the circuit as per requirement as shown below 
+
+
 ![image](https://user-images.githubusercontent.com/36288975/233856847-32bea88a-565f-4e01-9c7e-4f7ed546ddf6.png)
 
-### STEP15 : 
+### STEP-15 : 
+
 Double click on the the MCU part to open settings. Next to the Program File option, give full path to the Hex file generated using STM32Cube IDE. Then set the external crystal frequency to 8M (i.e. 8 MHz). Click OK to save the changes.
+
+
 ![image](https://user-images.githubusercontent.com/36288975/234186668-f21e74f6-8958-4eb2-899f-8e53770a5c06.png)
 
-### STEP16 : 
+### STEP-16 : 
+
 click on debug and simulate using simulation as shown below 
+
+
 ![image](https://user-images.githubusercontent.com/36288975/233856904-99eb708a-c907-4595-9025-c9dbd89b8879.png)
 
 
 ## STM 32 CUBE PROGRAM :
+
 ```
 #include "main.h"
 #include"stdbool.h"
@@ -181,8 +230,13 @@ void assert_failed(uint8_t *file, uint32_t line)
 ## Output screen shots of proteus  :
 
 ### OFF STATE  :
+
+
 ![image](https://github.com/user-attachments/assets/bd77d63f-4e34-4d33-b81e-c831c1167820)
+
 ### ON STATE :
+
+
 ![image](https://github.com/user-attachments/assets/2ec9b292-ca80-4617-b14a-a8852c2f56c1)
 
 
@@ -190,6 +244,7 @@ void assert_failed(uint8_t *file, uint32_t line)
 
 
 ## Proteus layout(Add pdf screen shot of circuit here)
+
  
  ![image](https://github.com/user-attachments/assets/889e34a7-0c2e-4407-91af-b15864865bd9)
 
