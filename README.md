@@ -9,8 +9,12 @@ To Interface a Digital output (LED) and Digital input (Pushbutton) to ARM develo
 STM32 CUBE IDE, Proteus 8 simulator.
 
 ## Theory :
-ARM stands for Advanced Reduced Instruction Set Computer (RISC) Machine, a 32-bit processor architecture used widely in microcontrollers and processors. Major semiconductor companies like Samsung, Atmel, and TI manufacture ARM-based SoCs.ARM architecture is licensed to corporations, allowing them to design ARM processor-based SoCs and CPUs for various applications.Commonly used in embedded systems, ARM7 strikes a balance between classic ARM and new Cortex sequences, with excellent documentation provided by NXP Semiconductors, making it ideal for beginners in hardware and software design.STM32F401xB/C ARM Cortex-M4: This ARM Cortex-M4 32-bit MCU has a floating-point unit (FPU), runs at up to 84 MHz, and offers real-time performance with 105 DMIPS, 256KB Flash memory, 64KB RAM, and various communication interfaces. The STM32F401xB/C includes 11 timers (TIMs), 1 analog-to-digital converter (ADC), and 11 communication interfaces, making it a versatile choice for embedded systems.
- 
+
+The full form of an ARM is an advanced reduced instruction set computer (RISC) machine, and it is a 32-bit processor architecture expanded by ARM holdings. The applications of an ARM processor include several microcontrollers as well as processors. The architecture of an ARM processor was licensed by many corporations for designing ARM processor-based SoC products and CPUs. This allows the corporations to manufacture their products using ARM architecture. Likewise, all main semiconductor companies will make ARM-based SOCs such as Samsung, Atmel, TI etc.
+
+What is an ARM7 Processor? ARM7 processor is commonly used in embedded system applications. Also, it is a balance among classic as well as new-Cortex sequence. This processor is tremendous in finding the resources existing on the internet with excellence documentation offered by NXP Semiconductors. It suits completely for an apprentice to obtain in detail hardware & software design implementation.
+
+STM32F401xB STM32F401xC ARM® Cortex®-M4 32b MCU+FPU, 105 DMIPS, 256KB Flash/64KB RAM, 11 TIMs, 1 ADC, 11 comm. interfaces Datasheet - production data Features • Core: ARM® 32-bit Cortex®-M4 CPU with FPU, Adaptive real-time accelerator (ART Accelerator™) allowing 0-wait state execution from Flash memory, frequency up to 84 MHz, memory protection unit, 105 DMIPS/ 1. 25 DMIPS/MHz (Dhrystone 2. 1), and DSP instructions • Memories – Up to 256 Kbytes of Flash memory – Up to 64 Kbytes of SRAM
  
 
 ## Procedure :
